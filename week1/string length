@@ -1,0 +1,6 @@
+n=input("enter n value")
+c=0
+for i in n:
+	print(i)
+	c=c+1
+print("length of string is=",c)	
