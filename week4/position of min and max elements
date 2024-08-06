@@ -18,3 +18,23 @@ enter an element:2345
 [34, 345, 3432, 23, 2345]
 minimum element in list=  3
 maximum element in list=  2
+
+l=[]
+n=int(input("enter no.of elements:"))
+for i in range(n):
+	ele=int(input("enter an element:"))
+	l.append(ele)
+print(l)
+print("minimum element in list= ",min(l))
+print("maximum element in list= ",max(l))
+
+output:-
+
+enter no.of elements:4
+enter an element:56
+enter an element:23
+enter an element:432
+enter an element:345
+[56, 23, 432, 345]
+minimum element in list=  23
+maximum element in list=  432
