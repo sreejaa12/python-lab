@@ -1,0 +1,18 @@
+l=[]
+n=int(input("enter no.of elements in list:"))
+for i in range(n):
+	ele= int(input("enter an element:"))
+	l.append(ele)
+print(l)
+l.reverse()
+print(l)	
+
+output:-
+enter no.of elements in list:5
+enter an element:10
+enter an element:30
+enter an element:60
+enter an element:58
+enter an element:83
+[10, 30, 60, 58, 83]
+[83, 58, 60, 30, 10]
