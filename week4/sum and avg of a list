@@ -6,3 +6,14 @@ for i in range(n):
 print(l)
 print(sum(l))
 print(sum(l)/len(l))	
+
+output:-
+enter no.of elements in list:5
+Enter an element:10
+Enter an element:20
+Enter an element:30
+Enter an element:40
+Enter an element:50
+[10, 20, 30, 40, 50]
+150
+30.0
