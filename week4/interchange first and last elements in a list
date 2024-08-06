@@ -1,0 +1,19 @@
+l=[]
+n=int(input("enter no.of elements:"))
+for i in range(n):
+	ele=int(input("enter an element:"))
+	l.append(ele)
+print(l)
+l[0],l[n-1]=l[n-1],l[0]	
+print(l)
+
+
+OUTPUT:-
+enter no.of elements:5
+enter an element:34
+enter an element:56
+enter an element:78
+enter an element:46
+enter an element:42
+[34, 56, 78, 46, 42]
+[42, 56, 78, 46, 34]
