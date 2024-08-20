@@ -1,0 +1,14 @@
+s=input("Enter a string: ")
+rev_str=""
+for i in s:
+	rev_str=i+rev_str
+if(s==rev_str):
+	print("PALINDROME")
+else:
+	print("NOT A PALINDROME")		
+
+
+
+  OUTPUT:-
+            Enter a string: madam
+            PALINDROME
