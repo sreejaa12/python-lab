@@ -1,0 +1,6 @@
+s=input("enter a string")
+print(s[::-1])
+
+OUTPUT:-
+enter a stringsreeja
+ajeers
