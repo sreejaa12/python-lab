@@ -1,0 +1,20 @@
+s=input("Enter a string: ").split()
+print(s)
+for i in s:
+	if len(i)%2==0:
+		print(i)
+
+
+
+OUTPUT:-
+(1)
+Enter a string: sreeja is CSE student
+['sreeja', 'is', 'CSE', 'student']
+sreeja
+is
+
+(2)
+Enter a string: I am Laxmi
+['I', 'am', 'Laxmi']
+am
+
