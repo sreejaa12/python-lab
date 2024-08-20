@@ -1,0 +1,10 @@
+s=input("enter a string: ")
+count=0
+for i in s:
+	count=count+1
+print(count)	
+
+
+OUTPUT:-
+        enter a string: sreeja
+        6
