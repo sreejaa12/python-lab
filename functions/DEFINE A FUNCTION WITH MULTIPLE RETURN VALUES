@@ -1,0 +1,10 @@
+def cal(a):
+	return a+5
+print(cal(7))
+print(cal(6))
+print(cal(4))
+
+OUTPUT:-
+12
+11
+9
