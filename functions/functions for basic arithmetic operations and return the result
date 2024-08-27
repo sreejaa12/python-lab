@@ -1,0 +1,8 @@
+def fun(a,b):
+	return a+b,a-b,a*b,a/b,a%b
+print("add,sub,mul,div,modulo are: ")
+print(*fun(30,10),sep=",")
+
+OUTPUT:-
+ add,sub,mul,div,modulo are: 
+40,20,300,3.0,0
