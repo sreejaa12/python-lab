@@ -1,0 +1,15 @@
+def fact(n):
+	if n==0:
+		return 1
+	else:
+		return n*fact(n-1)
+n=int(input("Enter a number:"))
+if n<0:
+	print("enter +ve no.")
+else:
+	print("Factorial of",n,"is:",fact(n))
+
+
+    OUTPUT:-
+    Enter a number:6
+    Factorial of 6 is: 720
